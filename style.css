@@ -1,0 +1,146 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #121212;
+            font-family: Arial, sans-serif;
+        }
+        #header {
+            display: flex;
+            align-items: center;
+            background-image: linear-gradient(90deg, rgb(0, 251, 75) 0%, rgb(57, 185, 153) 0%, rgb(9, 121, 110) 20%, rgb(3, 50, 25) 60%, rgb(2, 0, 36) 100%);
+            height: 133px;
+            border-radius: 15px;
+            margin: 10px;
+            color: white;
+        }
+        .profile-img {
+            display: flex;
+            align-items: center;
+            padding-left: 17px;
+        }
+        .profile-text {
+            padding-left: 10px;
+            font-size: 16px;
+        }
+        #profile {
+            height: 90px;
+            width: 90px;
+            border-radius: 50%;
+        }
+        .profile-info {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 15px;
+            margin-right: 35px;
+            flex-grow: 1;
+        }
+        .pro-inf {
+            padding: 6px 10px;
+            border-radius: 6px;
+            background: linear-gradient(to right, #405DE6, #5851DB, #833AB4);
+            border: 2px solid transparent;
+            color: white;
+            font-size: 13px;
+            text-decoration: none;
+        }
+        .resume-btn {
+            padding: 6px 10px;
+            border-radius: 6px;
+            background: linear-gradient(to right, #405DE6, #5851DB, #833AB4);
+            border: 2px solid transparent;
+            color: white;
+            font-size: 13px;
+            height:50px;
+        }
+        .topics {
+            color: #D4D4D4;
+            padding-top: 15px;
+            margin-left: 21px;
+        }
+        .project {
+            margin: 5px;
+        }
+        .cointainer {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .project-card {
+            height: 250px;
+            width: 350px;
+            color: rgb(155, 155, 155);
+            background-color: rgb(20, 24, 32);
+            margin: 12px 0 25px 35px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+        }
+        .projects {
+            height: 200px;
+            width: 350px;
+            /* border-radius: 10px; */
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .p {
+            padding-top: 3px;
+            padding-left: 5px;
+            color: #9b9b9b;
+            font-size: 13.33px;
+        }
+        .social-cointainer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 10px;
+            position: relative;
+            height: 100px;
+            width: 100%;
+            max-width: 1460px;
+            border-radius: 10px;
+            overflow: hidden;
+            background: rgb(20, 24, 32);
+            margin: 10px;
+        }
+        #social-cointainer-father {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .cointainr {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .project-car {
+            height: 210px;
+            width: 260px;
+            color: rgb(155, 155, 155);
+            background-color: rgb(20, 24, 32);
+            margin: 7px auto;
+            padding: 15px;
+            border-radius: 7px;
+            text-align: center;
+        }
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .tag {
+            display: inline-block;
+            padding: 5px 10px;
+            color: rgb(155, 155, 155);
+            background-color: #1a1f29;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        .but {
+            border: 1.5px solid darkorchid;
+        }
